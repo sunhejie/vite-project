@@ -1,10 +1,11 @@
 <template>
-  <div class="user-wrap"></div>
+  <div class="user-wrap wrap">
+    <div class="inner"></div>
+  </div>
 </template>
-<script setup lang="ts">
-import { ref } from "vue";
-
-defineProps<{ msg: string }>();
-
-const count = ref(0);
-</script>
+<script setup lang="ts"></script>
+<style>
+.wrap {
+  @apply border;
+}
+</style>
