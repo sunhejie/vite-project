@@ -1,6 +1,5 @@
 <template>
-  <HelloWorld />
-  123
+  <div><HelloWorld /></div>
 </template>
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
