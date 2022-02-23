@@ -1,13 +1,13 @@
 module.exports = {
-  moduleFileExtensions: ['js', 'vue'], //jest需要匹配的文件后缀
+  moduleFileExtensions: ['js', 'vue', 'ts', 'json', 'vue'], //jest需要匹配的文件后缀
   transform: {
     '^.+\\.vue$': '@vue/vue3-jest',
-    '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
+    '\\.[jt]sx?$': 'babel-jest',
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   snapshotSerializers: ['jest-serializer-vue'],
-  testMatch: ['**/__tests__/**/*.spec.js'],
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+  transformIgnorePatterns: ['/node_modules/'],
 }

@@ -7,8 +7,8 @@
 <style>
 .wrap {
   @apply border;
-}
-.inner {
-  @apply w-20 h-20 bg-red-300;
+  & .inner {
+    @apply w-20 h-20 bg-red-300;
+  }
 }
 </style>

@@ -20,6 +20,7 @@ specifiers:
   eslint-plugin-vue: ^8.4.1
   husky: ^7.0.4
   jest: ^27.5.1
+  jest-serializer-vue: ^2.0.2
   less: ^4.1.2
   lint-staged: ^12.3.4
   postcss: ^8.4.6
@@ -57,6 +58,7 @@ devDependencies:
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/8.4.1_eslint@8.9.0
   husky: registry.npmmirror.com/husky/7.0.4
   jest: registry.npmmirror.com/jest/27.5.1
+  jest-serializer-vue: registry.npmmirror.com/jest-serializer-vue/2.0.2
   less: registry.npmmirror.com/less/4.1.2
   lint-staged: registry.npmmirror.com/lint-staged/12.3.4
   postcss: registry.npmmirror.com/postcss/8.4.6
@@ -2553,6 +2555,17 @@ packages:
     version: 0.0.1
     dev: true
 
+  registry.npmmirror.com/condense-newlines/0.2.1:
+    resolution: {integrity: sha512-P7X+QL9Hb9B/c8HI5BFFKmjgBu2XpQuF98WZ9XkO+dBGgk5XgwiQz7o1SmpglNWId3581UcS0SFAWfoIhMHPfg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/condense-newlines/-/condense-newlines-0.2.1.tgz}
+    name: condense-newlines
+    version: 0.2.1
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      extend-shallow: registry.npmmirror.com/extend-shallow/2.0.1
+      is-whitespace: registry.npmmirror.com/is-whitespace/0.3.0
+      kind-of: registry.npmmirror.com/kind-of/3.2.2
+    dev: true
+
   registry.npmmirror.com/config-chain/1.1.13:
     resolution: {integrity: sha512-qj+f8APARXHrM0hraqXYb2/bOVSV4PvJQlNZ/DVj0QrmNM2q2euizkeuVckQ57J+W0mRH6Hvi+k50M4Jul2VRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/config-chain/-/config-chain-1.1.13.tgz}
     name: config-chain
@@ -3632,6 +3645,15 @@ packages:
       jest-message-util: registry.npmmirror.com/jest-message-util/27.5.1
     dev: true
 
+  registry.npmmirror.com/extend-shallow/2.0.1:
+    resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/extend-shallow/-/extend-shallow-2.0.1.tgz}
+    name: extend-shallow
+    version: 2.0.1
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-extendable: registry.npmmirror.com/is-extendable/0.1.1
+    dev: true
+
   registry.npmmirror.com/external-editor/3.1.0:
     resolution: {integrity: sha512-hMQ4CX1p1izmuLYyZqLMO/qGNw10wSv9QDCPfzXfyFrOaCSSoRfqE1Kf1s5an66J5JZC62NewG+mK49jOCtQew==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/external-editor/-/external-editor-3.1.0.tgz}
     name: external-editor
@@ -4301,6 +4323,12 @@ packages:
     version: 0.2.1
     dev: true
 
+  registry.npmmirror.com/is-buffer/1.1.6:
+    resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-buffer/-/is-buffer-1.1.6.tgz}
+    name: is-buffer
+    version: 1.1.6
+    dev: true
+
   registry.npmmirror.com/is-core-module/2.8.1:
     resolution: {integrity: sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-core-module/-/is-core-module-2.8.1.tgz}
     name: is-core-module
@@ -4316,6 +4344,13 @@ packages:
     dependencies:
       acorn: registry.npmmirror.com/acorn/7.4.1
       object-assign: registry.npmmirror.com/object-assign/4.1.1
+    dev: true
+
+  registry.npmmirror.com/is-extendable/0.1.1:
+    resolution: {integrity: sha512-5BMULNob1vgFX6EjQw5izWDxrecWK9AM72rugNr0TFldMOi0fj6Jk+zeKIt0xGj4cEfQIJth4w3OKWOJ4f+AFw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-extendable/-/is-extendable-0.1.1.tgz}
+    name: is-extendable
+    version: 0.1.1
+    engines: {node: '>=0.10.0'}
     dev: true
 
   registry.npmmirror.com/is-extglob/2.1.1:
@@ -4437,6 +4472,13 @@ packages:
     resolution: {integrity: sha512-sNxgpk9793nzSs7bA6JQJGeIuRBQhAaNGG77kzYQgMkrID+lS6SlK07K5LaptscDlSaIgH+GPFzf+d75FVxozA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-what/-/is-what-3.14.1.tgz}
     name: is-what
     version: 3.14.1
+    dev: true
+
+  registry.npmmirror.com/is-whitespace/0.3.0:
+    resolution: {integrity: sha512-RydPhl4S6JwAyj0JJjshWJEFG6hNye3pZFBRZaTUfZFwGHxzppNaNOVgQuS/E/SlhrApuMXrpnK1EEIXfdo3Dg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-whitespace/-/is-whitespace-0.3.0.tgz}
+    name: is-whitespace
+    version: 0.3.0
+    engines: {node: '>=0.10.0'}
     dev: true
 
   registry.npmmirror.com/is-windows/1.0.2:
@@ -4914,6 +4956,14 @@ packages:
       - supports-color
     dev: true
 
+  registry.npmmirror.com/jest-serializer-vue/2.0.2:
+    resolution: {integrity: sha512-nK/YIFo6qe3i9Ge+hr3h4PpRehuPPGZFt8LDBdTHYldMb7ZWlkanZS8Ls7D8h6qmQP2lBQVDLP0DKn5bJ9QApQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jest-serializer-vue/-/jest-serializer-vue-2.0.2.tgz}
+    name: jest-serializer-vue
+    version: 2.0.2
+    dependencies:
+      pretty: registry.npmmirror.com/pretty/2.0.0
+    dev: true
+
   registry.npmmirror.com/jest-serializer/27.5.1:
     resolution: {integrity: sha512-jZCyo6iIxO1aqUxpuBlwTDMkzOAJS4a3eYz3YzgxxVQFwLeSA7Jfq5cbqCY+JLvTDrWirgusI/0KwxKMgrdf7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jest-serializer/-/jest-serializer-27.5.1.tgz}
     name: jest-serializer
@@ -5221,6 +5271,15 @@ packages:
     dependencies:
       is-promise: registry.npmmirror.com/is-promise/2.2.2
       promise: registry.npmmirror.com/promise/7.3.1
+    dev: true
+
+  registry.npmmirror.com/kind-of/3.2.2:
+    resolution: {integrity: sha512-NOW9QQXMoZGg/oqnVNoNTTIFEIid1627WCffUBJEdMxYApq7mNE7CpzucIPc+ZQg25Phej7IJSmX3hO+oblOtQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/kind-of/-/kind-of-3.2.2.tgz}
+    name: kind-of
+    version: 3.2.2
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-buffer: registry.npmmirror.com/is-buffer/1.1.6
     dev: true
 
   registry.npmmirror.com/kind-of/6.0.3:
@@ -6061,6 +6120,17 @@ packages:
       ansi-regex: registry.npmmirror.com/ansi-regex/5.0.1
       ansi-styles: registry.npmmirror.com/ansi-styles/5.2.0
       react-is: registry.npmmirror.com/react-is/17.0.2
+    dev: true
+
+  registry.npmmirror.com/pretty/2.0.0:
+    resolution: {integrity: sha512-G9xUchgTEiNpormdYBl+Pha50gOUovT18IvAe7EYMZ1/f9W/WWMPRn+xI68yXNMUk3QXHDwo/1wV/4NejVNe1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pretty/-/pretty-2.0.0.tgz}
+    name: pretty
+    version: 2.0.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      condense-newlines: registry.npmmirror.com/condense-newlines/0.2.1
+      extend-shallow: registry.npmmirror.com/extend-shallow/2.0.1
+      js-beautify: registry.npmmirror.com/js-beautify/1.14.0
     dev: true
 
   registry.npmmirror.com/promise/7.3.1:

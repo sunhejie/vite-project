@@ -1,4 +1,7 @@
-<template><HelloWorld /></template>
+<template>
+  <HelloWorld />
+  123
+</template>
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
