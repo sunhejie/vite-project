@@ -15,7 +15,8 @@
     "*.{js,jsx,ts,tsx,vue}": "prettier --write"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -54,6 +55,14 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "vite": {
+    "optimizeDeps": {
+      "include": [
+        "vue",
+        "vue-router"
+      ]
     }
   }
 }

@@ -7,10 +7,14 @@ export default defineConfig({
   base: isDev ? '/' : './',
   plugins: [vue(), WindiCss()],
   resolve: {
-    alias: {},
+    alias: { router: resolve('router'), views: resolve('views') },
   },
   build: {},
   server: {
     proxy: {},
   },
 })
+
+function resolve(name) {
+  return `/src/${name}`
+}

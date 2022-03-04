@@ -3,6 +3,9 @@
     <div class="inner">123</div>
   </div>
 </template>
+<script lang="ts">
+export default { name: 'Login' }
+</script>
 <script setup lang="ts"></script>
 <style>
 .wrap {
