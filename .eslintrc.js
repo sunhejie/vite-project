@@ -19,5 +19,7 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
 }

@@ -13,9 +13,6 @@
       "esnext",
       "dom"
     ],
-    "types": [ //指定types，只有被列出来的包会被编译
-      "jest",
-    ],
   },
   "include": [
     "src/**/*.ts",
