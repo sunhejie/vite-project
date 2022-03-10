@@ -4,7 +4,7 @@
   </div>
 </template>
 <script lang="ts">
-export default { name: 'Login' }
+export default { name: 'login' }
 </script>
 <script setup lang="ts"></script>
 <style>

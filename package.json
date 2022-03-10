@@ -15,6 +15,9 @@
     "*.{js,jsx,ts,tsx,vue}": "prettier --write"
   },
   "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.26.0",
+    "pinia": "^2.0.0-rc.10",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12"
   },
