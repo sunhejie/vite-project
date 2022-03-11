@@ -9,9 +9,13 @@ export default defineConfig({
   plugins: [vue(), WindiCss()],
   resolve: {
     alias: {
+      assets: resolve('assets'),
+      components: resolve('components'),
       router: resolve('router'),
-      views: resolve('views'),
+      store: resolve('store'),
       utils: resolve('utils'),
+      views: resolve('views'),
+      service: resolve('service'),
       config: resolve('config'),
     },
   },

@@ -9,4 +9,3 @@ export default { name: 'home' }
 <script setup lang="ts">
 import { Button as AButton } from 'ant-design-vue'
 </script>
-<style></style>

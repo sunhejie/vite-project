@@ -10,6 +10,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.12.0
   '@vitejs/plugin-vue': ^2.2.0
   '@vue/compiler-sfc': ^3.2.31
+  '@vueuse/core': ^5.0.0
   ant-design-vue: ^2.2.8
   axios: ^0.26.0
   babel-core: 7.0.0-bridge.0
@@ -52,6 +53,7 @@ devDependencies:
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.12.0_eslint@8.9.0+typescript@4.5.5
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.2.0_vite@2.8.1+vue@3.2.31
   '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc/3.2.31
+  '@vueuse/core': registry.npmmirror.com/@vueuse/core/5.0.0_vue@3.2.31
   babel-core: registry.npmmirror.com/babel-core/7.0.0-bridge.0_@babel+core@7.17.5
   commitizen: registry.npmmirror.com/commitizen/4.2.4
   cross-env: registry.npmmirror.com/cross-env/7.0.3
@@ -1121,6 +1123,31 @@ packages:
     resolution: {integrity: sha512-ymN2pj6zEjiKJZbrf98UM2pfDd6F2H7ksKw7NDt/ZZ1fh5Ei39X5tABugtT03ZRlWd9imccoK0hE8hpjpU7irQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/shared/-/shared-3.2.31.tgz}
     name: '@vue/shared'
     version: 3.2.31
+
+  registry.npmmirror.com/@vueuse/core/5.0.0_vue@3.2.31:
+    resolution: {integrity: sha512-//QyV6X0e1hnfptpDakZba8WYNNeBVBRB9+33C7Sk9iYcevfZeAXCFbb9CRE4TajC4QTOQRBEDnWoCkZI8YAgg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/core/-/core-5.0.0.tgz}
+    id: registry.npmmirror.com/@vueuse/core/5.0.0
+    name: '@vueuse/core'
+    version: 5.0.0
+    dependencies:
+      '@vueuse/shared': registry.npmmirror.com/@vueuse/shared/5.0.0_vue@3.2.31
+      vue-demi: registry.npmmirror.com/vue-demi/0.12.1_vue@3.2.31
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  registry.npmmirror.com/@vueuse/shared/5.0.0_vue@3.2.31:
+    resolution: {integrity: sha512-YzokofbZGs6tAIObCNDh4F9r+N0PdvWsRlBIxHpfkec9HVQj5mIuPPSgt3kkGC4LOToo6An6EdDJMYoVlxLhkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/shared/-/shared-5.0.0.tgz}
+    id: registry.npmmirror.com/@vueuse/shared/5.0.0
+    name: '@vueuse/shared'
+    version: 5.0.0
+    dependencies:
+      vue-demi: registry.npmmirror.com/vue-demi/0.12.1_vue@3.2.31
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
 
   registry.npmmirror.com/@windicss/config/1.7.0:
     resolution: {integrity: sha512-jP+SYEUMTcvEQexYAeaIGKWq3sE+yv0myyOCph7Glm/YZE2ZCK1GukI1oDG6fcVer121EQzCY4Rx11trb3oSZg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@windicss/config/-/config-1.7.0.tgz}
@@ -5217,7 +5244,6 @@ packages:
         optional: true
     dependencies:
       vue: registry.npmmirror.com/vue/3.2.31
-    dev: false
 
   registry.npmmirror.com/vue-eslint-parser/8.2.0_eslint@8.9.0:
     resolution: {integrity: sha512-hvl8OVT8imlKk/lQyhkshqwQQChzHETcBd5abiO4ePw7ib7QUZLfW+2TUrJHKUvFOCFRJrDin5KJO9OHzB5bRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-8.2.0.tgz}
